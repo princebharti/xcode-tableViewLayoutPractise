@@ -12,6 +12,9 @@
 		B1CF4D7521E9AB9300DA5633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CF4D7321E9AB9300DA5633 /* Main.storyboard */; };
 		B1CF4D7721E9AB9400DA5633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CF4D7621E9AB9400DA5633 /* Assets.xcassets */; };
 		B1CF4D7A21E9AB9400DA5633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CF4D7821E9AB9400DA5633 /* LaunchScreen.storyboard */; };
+		B1CF4D8221E9AE4F00DA5633 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF4D8121E9AE4F00DA5633 /* TableViewCell.swift */; };
+		B1CF4D8621E9B75400DA5633 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF4D8521E9B75400DA5633 /* FooterView.swift */; };
+		B1CF4D8821E9B7A500DA5633 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1CF4D8721E9B7A500DA5633 /* FooterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B1CF4D7621E9AB9400DA5633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1CF4D7921E9AB9400DA5633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1CF4D7B21E9AB9400DA5633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1CF4D8121E9AE4F00DA5633 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B1CF4D8521E9B75400DA5633 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		B1CF4D8721E9B7A500DA5633 /* FooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				B1CF4D7621E9AB9400DA5633 /* Assets.xcassets */,
 				B1CF4D7821E9AB9400DA5633 /* LaunchScreen.storyboard */,
 				B1CF4D7B21E9AB9400DA5633 /* Info.plist */,
+				B1CF4D8121E9AE4F00DA5633 /* TableViewCell.swift */,
+				B1CF4D8521E9B75400DA5633 /* FooterView.swift */,
+				B1CF4D8721E9B7A500DA5633 /* FooterView.xib */,
 			);
 			path = tableViewLayoutPractise;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1CF4D7A21E9AB9400DA5633 /* LaunchScreen.storyboard in Resources */,
+				B1CF4D8821E9B7A500DA5633 /* FooterView.xib in Resources */,
 				B1CF4D7721E9AB9400DA5633 /* Assets.xcassets in Resources */,
 				B1CF4D7521E9AB9300DA5633 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1CF4D8221E9AE4F00DA5633 /* TableViewCell.swift in Sources */,
+				B1CF4D8621E9B75400DA5633 /* FooterView.swift in Sources */,
 				B1CF4D7221E9AB9300DA5633 /* ViewController.swift in Sources */,
 				B1CF4D7021E9AB9300DA5633 /* AppDelegate.swift in Sources */,
 			);
