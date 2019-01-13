@@ -15,6 +15,8 @@
 		B1CF4D8221E9AE4F00DA5633 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF4D8121E9AE4F00DA5633 /* TableViewCell.swift */; };
 		B1CF4D8621E9B75400DA5633 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF4D8521E9B75400DA5633 /* FooterView.swift */; };
 		B1CF4D8821E9B7A500DA5633 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1CF4D8721E9B7A500DA5633 /* FooterView.xib */; };
+		B1CF4D8A21EA22A600DA5633 /* TableFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CF4D8921EA22A600DA5633 /* TableFooter.swift */; };
+		B1CF4D8C21EA22B700DA5633 /* TableFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1CF4D8B21EA22B700DA5633 /* TableFooter.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		B1CF4D8121E9AE4F00DA5633 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		B1CF4D8521E9B75400DA5633 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		B1CF4D8721E9B7A500DA5633 /* FooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		B1CF4D8921EA22A600DA5633 /* TableFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableFooter.swift; sourceTree = "<group>"; };
+		B1CF4D8B21EA22B700DA5633 /* TableFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableFooter.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				B1CF4D8121E9AE4F00DA5633 /* TableViewCell.swift */,
 				B1CF4D8521E9B75400DA5633 /* FooterView.swift */,
 				B1CF4D8721E9B7A500DA5633 /* FooterView.xib */,
+				B1CF4D8921EA22A600DA5633 /* TableFooter.swift */,
+				B1CF4D8B21EA22B700DA5633 /* TableFooter.xib */,
 			);
 			path = tableViewLayoutPractise;
 			sourceTree = "<group>";
@@ -135,6 +141,7 @@
 				B1CF4D8821E9B7A500DA5633 /* FooterView.xib in Resources */,
 				B1CF4D7721E9AB9400DA5633 /* Assets.xcassets in Resources */,
 				B1CF4D7521E9AB9300DA5633 /* Main.storyboard in Resources */,
+				B1CF4D8C21EA22B700DA5633 /* TableFooter.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 				B1CF4D8221E9AE4F00DA5633 /* TableViewCell.swift in Sources */,
 				B1CF4D8621E9B75400DA5633 /* FooterView.swift in Sources */,
 				B1CF4D7221E9AB9300DA5633 /* ViewController.swift in Sources */,
+				B1CF4D8A21EA22A600DA5633 /* TableFooter.swift in Sources */,
 				B1CF4D7021E9AB9300DA5633 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
